@@ -7,15 +7,15 @@ namespace RegeXPatternApplication
 {
     internal class Pattern
     {
-        public const string First_NamePattern = "^[A-Z][a-zA-Z]*$";
+        public const string Last_NamePattern = "^[A-Z][a-zA-Z]*$";
         internal void FirstNameValidate(string First_name)
         {
-            Regex regex = new Regex(First_NamePattern);
+            Regex regex = new Regex(Last_NamePattern);
             bool result = regex.IsMatch(First_name);
             if (result == true)
-                Console.WriteLine("Entered First_name is Valid ");
+                Console.WriteLine("Entered Last_name is Valid ");
             else
-                Console.WriteLine("Entered First_name is Not Valid");
+                Console.WriteLine("Entered Last_name is Not Valid");
         }
     }
 }

@@ -7,10 +7,10 @@ namespace RegeXPatternApplication
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to RegeXpattern Application ");
-            Console.WriteLine("Enter a First Name ");
+            Console.WriteLine("Enter a Last Name ");
             Pattern patternChecker=new Pattern();
-            string First_name=Console.ReadLine();
-            patternChecker.FirstNameValidate(First_name);
+            string Last_name=Console.ReadLine();
+            patternChecker.FirstNameValidate(Last_name);
             Console.ReadLine();
         }
     }
