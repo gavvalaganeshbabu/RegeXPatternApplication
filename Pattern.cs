@@ -7,15 +7,15 @@ namespace RegeXPatternApplication
 {
     internal class Pattern
     {
-        public const string EmailPattern = @"[a-z]{3,7}.?[a-z0-9]{3,8}@[a-z]{3,8}.(com|org)$";
-        internal void FirstNameValidate(string Email)
+        public const string MobileNumberPattern = @"(^[0-9]{10}$)|(^[0-9]{3}-[0-9]{4}-[0-9]{4}$)";
+        internal void FirstNameValidate(string MobileNumber)
         {
-            Regex regex = new Regex(EmailPattern);
-            bool result = regex.IsMatch(Email);
+            Regex regex = new Regex(MobileNumberPattern);
+            bool result = regex.IsMatch(MobileNumber);
             if (result == true)
-                Console.WriteLine("Entered Mail is Valid ");
+                Console.WriteLine("Entered MobileNumber is Valid ");
             else
-                Console.WriteLine("Entered Mail is Not Valid");
+                Console.WriteLine("Entered MobileNumber is Not Valid");
         }
     }
 }
