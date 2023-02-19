@@ -10,7 +10,7 @@ namespace RegeXPatternApplication
             Console.WriteLine("Enter a Last Name ");
             Pattern patternChecker=new Pattern();
             string Last_name=Console.ReadLine();
-            patternChecker.FirstNameValidate(Last_name);
+            patternChecker.LastNameValidate(Last_name);
             Console.ReadLine();
         }
     }
