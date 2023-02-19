@@ -10,7 +10,7 @@ namespace RegeXPatternApplication
             Console.WriteLine("Enter a Email Name ");
             Pattern patternChecker=new Pattern();
             string Email=Console.ReadLine();
-            patternChecker.FirstNameValidate(Email);
+            patternChecker.EmailValidate(Email);
             Console.ReadLine();
         }
     }
