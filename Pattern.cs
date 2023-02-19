@@ -7,8 +7,8 @@ namespace RegeXPatternApplication
 {
     internal class Pattern
     {
-        public const string FirstCharCapPattern = @"(^[A-Z][a-z]{3,8}$)";
-        internal void FirstNameValidate(string Name)
+        public const string FirstCharCapPattern = @"(^[a-z0-9A-Z]{1,8}$)";
+        internal void FirstCharCapValidate(string Name)
         {
             Regex regex = new Regex(FirstCharCapPattern);
             bool result = regex.IsMatch(Name);
