@@ -7,15 +7,15 @@ namespace RegeXPatternApplication
 {
     internal class Pattern
     {
-        public const string MobileNumberPattern = @"(^[0-9]{10}$)|(^[0-9]{3}-[0-9]{4}-[0-9]{4}$)";
-        internal void FirstNameValidate(string MobileNumber)
+        public const string FirstCharCapPattern = @"(^[A-Z][a-z]{3,8}$)";
+        internal void FirstNameValidate(string Name)
         {
-            Regex regex = new Regex(MobileNumberPattern);
-            bool result = regex.IsMatch(MobileNumber);
+            Regex regex = new Regex(FirstCharCapPattern);
+            bool result = regex.IsMatch(Name);
             if (result == true)
-                Console.WriteLine("Entered MobileNumber is Valid ");
+                Console.WriteLine("Entered Name is Valid ");
             else
-                Console.WriteLine("Entered MobileNumber is Not Valid");
+                Console.WriteLine("Entered Name is Not Valid");
         }
     }
 }
