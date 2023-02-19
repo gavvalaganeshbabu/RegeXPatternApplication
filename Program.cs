@@ -10,7 +10,7 @@ namespace RegeXPatternApplication
             Console.WriteLine("Enter your Mobile Number ");
             Pattern patternChecker=new Pattern();
             string MobileNumber = Console.ReadLine();
-            patternChecker.FirstNameValidate(MobileNumber);
+            patternChecker.MobileNumberValidate(MobileNumber);
             Console.ReadLine();
         }
     }

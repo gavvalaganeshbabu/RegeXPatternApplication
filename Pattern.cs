@@ -8,7 +8,7 @@ namespace RegeXPatternApplication
     internal class Pattern
     {
         public const string MobileNumberPattern = @"(^[0-9]{10}$)|(^[0-9]{3}-[0-9]{4}-[0-9]{4}$)";
-        internal void FirstNameValidate(string MobileNumber)
+        internal void MobileNumberValidate(string MobileNumber)
         {
             Regex regex = new Regex(MobileNumberPattern);
             bool result = regex.IsMatch(MobileNumber);
