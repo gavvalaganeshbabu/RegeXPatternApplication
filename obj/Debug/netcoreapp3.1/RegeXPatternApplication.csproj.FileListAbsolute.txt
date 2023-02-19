@@ -1,0 +1,14 @@
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\bin\Debug\netcoreapp3.1\RegeXPatternApplication.exe
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\bin\Debug\netcoreapp3.1\RegeXPatternApplication.deps.json
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\bin\Debug\netcoreapp3.1\RegeXPatternApplication.runtimeconfig.json
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\bin\Debug\netcoreapp3.1\RegeXPatternApplication.runtimeconfig.dev.json
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\bin\Debug\netcoreapp3.1\RegeXPatternApplication.dll
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\bin\Debug\netcoreapp3.1\RegeXPatternApplication.pdb
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\obj\Debug\netcoreapp3.1\RegeXPatternApplication.csproj.AssemblyReference.cache
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\obj\Debug\netcoreapp3.1\RegeXPatternApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\obj\Debug\netcoreapp3.1\RegeXPatternApplication.AssemblyInfoInputs.cache
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\obj\Debug\netcoreapp3.1\RegeXPatternApplication.AssemblyInfo.cs
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\obj\Debug\netcoreapp3.1\RegeXPatternApplication.csproj.CoreCompileInputs.cache
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\obj\Debug\netcoreapp3.1\RegeXPatternApplication.dll
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\obj\Debug\netcoreapp3.1\RegeXPatternApplication.pdb
+D:\BridzeLabz\RFP-253-Bridzelabz\Day19\RegeXPatternApplication\RegeXPatternApplication\RegeXPatternApplication\obj\Debug\netcoreapp3.1\RegeXPatternApplication.genruntimeconfig.cache
