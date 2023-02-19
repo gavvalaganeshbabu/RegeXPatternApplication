@@ -7,15 +7,15 @@ namespace RegeXPatternApplication
 {
     internal class Pattern
     {
-        public const string Last_NamePattern = "^[A-Z][a-zA-Z]*$";
-        internal void FirstNameValidate(string First_name)
+        public const string EmailPattern = @"[a-z]{3,7}.?[a-z0-9]{3,8}@[a-z]{3,8}.(com|org)$";
+        internal void FirstNameValidate(string Email)
         {
-            Regex regex = new Regex(Last_NamePattern);
-            bool result = regex.IsMatch(First_name);
+            Regex regex = new Regex(EmailPattern);
+            bool result = regex.IsMatch(Email);
             if (result == true)
-                Console.WriteLine("Entered Last_name is Valid ");
+                Console.WriteLine("Entered Mail is Valid ");
             else
-                Console.WriteLine("Entered Last_name is Not Valid");
+                Console.WriteLine("Entered Mail is Not Valid");
         }
     }
 }
